@@ -3,5 +3,5 @@ public with sharing class ContactsController {
     public static List<Contact> getContacts(){
         return [SELECT Name FROM Contact WITH SECURITY_ENFORCED Limit 10];
     }
-/**commented code to test feature branch of git hub */ 
-       
+}
+    
